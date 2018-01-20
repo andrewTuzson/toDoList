@@ -12,6 +12,8 @@
 		8AE6930E201344FA00339EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE6930C201344FA00339EF4 /* Main.storyboard */; };
 		8AE69310201344FA00339EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE6930F201344FA00339EF4 /* Assets.xcassets */; };
 		8AE69313201344FA00339EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE69311201344FA00339EF4 /* LaunchScreen.storyboard */; };
+		8AE6931B20134E5E00339EF4 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6931A20134E5E00339EF4 /* AddItemViewController.swift */; };
+		8AE6931D20134E6500339EF4 /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6931C20134E6500339EF4 /* EditItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8AE6930F201344FA00339EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE69312201344FA00339EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE69314201344FA00339EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE6931A20134E5E00339EF4 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		8AE6931C20134E6500339EF4 /* EditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				8AE69308201344FA00339EF4 /* AppDelegate.swift */,
 				8AE6930A201344FA00339EF4 /* ViewController.swift */,
+				8AE6931A20134E5E00339EF4 /* AddItemViewController.swift */,
+				8AE6931C20134E6500339EF4 /* EditItemViewController.swift */,
 				8AE6930C201344FA00339EF4 /* Main.storyboard */,
 				8AE6930F201344FA00339EF4 /* Assets.xcassets */,
 				8AE69311201344FA00339EF4 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				8AE6930B201344FA00339EF4 /* ViewController.swift in Sources */,
 				8AE69309201344FA00339EF4 /* AppDelegate.swift in Sources */,
+				8AE6931B20134E5E00339EF4 /* AddItemViewController.swift in Sources */,
+				8AE6931D20134E6500339EF4 /* EditItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.evolempirecreative.toDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.evolempirecreative.toDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
